@@ -2,15 +2,23 @@ html {
   font-family: Merriweather, serif;
 }
 
+a {
+  color: #568c36;
+}
+
+a:hover {
+  color: #000;
+}
+
 .masthead {
-  background-color: #E97925;
+  background-color: #e97925;
 
   color: #fff;
 }
 
 .nav {
   position: relative;
-  background-color: #2578BD;
+  background-color: #2578bd;
   z-index: 2;
 }
 
@@ -21,30 +29,32 @@ html {
 
 .nav a:hover {
   background-color: #fff;
-  color: #2578BD;
+  color: #2578bd;
 }
 
 .nav a:focus {
-  outline: 3px solid #E97925;
+  outline: 3px solid #e97925;
 }
 
 .brown {
-  color: #4F3209;
+  color: #4f3209;
 }
 
 .btn {
-  background-color: #E97925;
-  border-color: #4F3209;
+  background-color: #2578bd;
+  border-color: #e97925;
 
   color: #fff;
 }
 
 .btn:hover {
-  background-color: #4F3209;
-  border-color: #E97925;
+  background-color: #e97925;
+  border-color: #2578bd;
+
+  color: #fff;
 }
 
 .footer {
-  background-color: #E97925;
+  background-color: #e97925;
   color: #fff;
 }

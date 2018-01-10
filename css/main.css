@@ -1,0 +1,29 @@
+html {
+  font-family: Merriweather, serif;
+}
+
+.masthead {
+  background-color: #E97925;
+
+  color: #fff;
+}
+
+.nav {
+  position: relative;
+  background-color: #2578BD;
+  z-index: 2;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #2578BD;
+}
+
+.nav a:focus {
+  outline: 3px solid #E97925;
+}

@@ -53,6 +53,12 @@ nav .selection {
   color: #fff;
 }
 
+.btn:hover {
+  background-color: #e97925;
+  color: #fff;
+  border-color: #e97925;
+}
+
 .btn:hover
 .btn:focus {
   background-color: #e97925;

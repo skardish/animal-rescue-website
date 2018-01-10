@@ -36,22 +36,48 @@ a:hover {
   outline: 3px solid #e97925;
 }
 
+nav .selection {
+  background-color: #fff;
+  color: #2578bd;
+  border: solid 2px #2578bd;
+  border-radius: 5px;
+}
+
 .brown {
   color: #4f3209;
 }
 
 .btn {
   background-color: #2578bd;
-  border-color: #e97925;
-
+  border-color: #2578bd;
   color: #fff;
 }
 
-.btn:hover {
+.btn:hover
+.btn:focus {
   background-color: #e97925;
   border-color: #2578bd;
-
   color: #fff;
+  transition: all 250ms ease;
+}
+
+.btn {
+  transition: all 250ms ease;
+  border-radius: 5px;
+}
+
+.btn:active {
+  top: 1.5em;
+  transform: translate(0, .25em);
+}
+
+.btn-ghost:hover {
+  transform: translate(0, -.5em);
+  border-color: #2578bd;
+}
+
+.btn-ghost {
+  transition: all 250ms ease;
 }
 
 .footer {

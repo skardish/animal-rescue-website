@@ -16,16 +16,12 @@ html {
   position: relative;
   background-color: #2578bd;
   z-index: 2;
-}
-
-.nav a {
   color: #fff;
-  background-color: #2578bd;
   text-decoration: none;
 }
 
-.nav a:hover {
-  background-color: #fff;
+.nav:hover {
+  background-color: #2578bd;
   color: #2578bd;
 }
 

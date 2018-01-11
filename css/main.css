@@ -2,6 +2,10 @@ html {
   font-family: Open-Sans, serif;
 }
 
+.navy {
+  color: #001d29;
+}
+
 .masthead {
   background-color: #001d29;
   color: #fff;
@@ -64,8 +68,18 @@ nav .selection {
 }
 
 .texture {
-  text-decoration: underline;
-  color: #2578bd;
+  text-decoration: none;
+  font-family: "Coming Soon", cursive;
+  color: #fff;
+  border: solid 2px #2578bd;
+  background-color: #2578bd;
+}
+
+.texture:hover {
+  background-color: #001d29;
+  color: #fff;
+  border-color: #001d29;
+  transition: all 250ms ease;
 }
 
 .footer {
